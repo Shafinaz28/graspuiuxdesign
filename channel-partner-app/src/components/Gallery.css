@@ -1,0 +1,136 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* APP WRAPPER */
+.app-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #232b62, #cd7e31);
+}
+
+/* MOBILE CARD */
+.mobile-screen {
+  width: 360px;
+  height: 540px;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 10px 10px 5px;
+}
+
+.header h1 {
+  font-size: 20px;
+  color: #232b62;
+  margin-bottom: 4px;
+}
+
+.header p {
+  font-size: 12px;
+  color: #777;
+}
+
+/* IMAGE SECTION */
+.image-section {
+  padding: 0 12px;
+  margin-top: 6px;
+}
+
+.image-section img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* INFO ROW */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #232b62;
+}
+
+/* DESCRIPTION */
+.desc {
+  text-align: center;
+  padding: 0 14px;
+  font-size: 12px;
+  color: #666;
+  line-height: 18px;
+}
+
+/* BUTTONS */
+.btn-row {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn {
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  background: #232b62;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn.outline {
+  background: #fff;
+  border: 1px solid #232b62;
+  color: #232b62;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  margin-top: auto;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.nav-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item i {
+  font-size: 18px;
+  color: #555;
+}
+
+/* SCROLL FIX (optional safe) */
+.mobile-screen {
+  overflow: hidden;
+}

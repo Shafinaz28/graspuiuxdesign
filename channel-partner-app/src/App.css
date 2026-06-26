@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND (from public folder) */
+.login-container {
+  height: 100vh;
+  background: url("/bg.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GLASS CARD */
+.overlay {
+  width: 360px;
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* LOGO */
+.top-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.brand-logo {
+  width: 70px;
+  filter: brightness(0) invert(1);
+}
+
+.brand-text {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tabs .active {
+  border-bottom: 2px solid white;
+}
+
+/* INPUT */
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: white;
+  outline: none;
+}
+
+/* PASSWORD */
+.password-field {
+  position: relative;
+}
+
+.password-field span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: black;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: black;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* TEXT */
+.small-text,
+.faq {
+  font-size: 12px;
+}
+
+.version {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 10px;
+}
