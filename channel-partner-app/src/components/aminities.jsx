@@ -2,7 +2,7 @@ import "./aminities.css";
 
 export default function Gallery() {
   const menuItems = [
-    "Why Grasp Rrealtors?",
+    "Why Grasp Realtors?",
     "Location & Connectivity",
     "Fitness & Well Being",
     "Green Cover",
@@ -15,8 +15,6 @@ export default function Gallery() {
   return (
     <div className="app-wrapper">
       <div className="mobile-screen">
-
-
         {/* ACCORDION CONTENT AREA */}
         <div className="content-area">
           {menuItems.map((item, index) => (
