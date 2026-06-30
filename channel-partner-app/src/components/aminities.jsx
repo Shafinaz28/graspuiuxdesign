@@ -2,14 +2,14 @@ import "./aminities.css";
 
 export default function Gallery() {
   const menuItems = [
-    "Why Godrej Woods?",
+    "Why Grasp Rrealtors?",
     "Location & Connectivity",
     "Fitness & Well Being",
     "Green Cover",
     "Entertainment",
     "Community",
     "Compliance",
-    "About Godrej Properties"
+    "About Grasp Realtors"
   ];
 
   return (
